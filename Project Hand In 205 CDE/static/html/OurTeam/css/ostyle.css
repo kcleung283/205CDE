@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.team-section{
+	overflow: hidden;
+	text-align:center;
+	background: url(mancamera.jpg);
+	padding:50px;
+}
+.team-section h2{
+	text-transform: uppercase;
+	margin-bottom:60px;
+	color: white;
+	font-size:40px;
+}
+.border{
+	display: block;
+	margin:auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+}
