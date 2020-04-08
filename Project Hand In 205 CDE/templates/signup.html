@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Sign In Here</title>
+		<link rel="stylesheet" href="{{ url_for('static',filename='css/signin.css') }}">
+
+
+
+<body>
+	<button type="button" on click=> <a href="/">Go Back To Main Page</a>
+
+
+
+	<div class="loginbox">
+	<img src="{{ url_for('static',filename='images/User.png') }}" class="User">
+		<h1>Sign In Here</h1>
+		<form action="signup-success" method="POST">
+			<p>Name</p>
+			<input type="text" name="username" placeholder="Enter Your Name">
+			<p>Password</p>
+			<input type="password" name="password" placeholder="Enter Password">
+			<p style ="color:red; font-size:20px; margin-bottom: 10px" id ="msg"></p> 
+			<input type="submit" name="" value="Register"><br>
+			
+		</form>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		if("{% print(msg) %}" !== ""){
+			$("#msg").html("{% print(msg) %}");
+			$("#msg").show();
+		}
+	</script>
+
+</body>
+</head>
+</html>
