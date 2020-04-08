@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url(shoppingcart.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop-items{
+    position: absolute;
+    width: 500px;
+    height:300px;
+    margin: 20% 30%;
+    text-align: center;
+}

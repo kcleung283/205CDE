@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url(shoppingcart.jpg);
+    height: 165vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1{
+	font-family: 'Times New Roman', cursive;
+	font-weight: normal;
+	color: #00ffe7;
+}
+h2{
+	font-family: 'Times New Roman', cursive;
+	font-weight: normal;
+	color: orange;
+}
+
